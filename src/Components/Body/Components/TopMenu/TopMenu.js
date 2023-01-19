@@ -25,7 +25,6 @@ const TopMenu = () => {
                     <button  className="textBodyMenu" type="submit">Contacto</button>
                 </div>
             </div>
-            {/* <div className="line"></div> */}
         </div>
     )
 }
