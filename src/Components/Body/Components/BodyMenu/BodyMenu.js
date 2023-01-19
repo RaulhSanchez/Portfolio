@@ -15,7 +15,7 @@ const BodyMenu = () => {
                 <div id="lineBodyTop"></div>
                 <h2 className='h2'>FULLSTACK DEVELOPER</h2>
                 <div className="lineBody"></div>
-                <h2 className='h2'>TECNOLOGIAS:</h2>
+                <h2 className='h2'>TECHNOLOGIES:</h2>
                 <div className="lineBody"></div>
                 <div className='technologiesContainer'>
                     <img className='technologiesImages' src="https://raw.githubusercontent.com/RaulhSanchez/RaulhSanchez/main/JS.png"></img>
@@ -46,10 +46,12 @@ const BodyMenu = () => {
                     <img className='technologiesImages2' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUVsnvWn4WeVdiDhfhi1NfoTc00_Zxs1Ktg&usqp=CAU"></img>
                     <img className='technologiesImages2' src="https://raw.githubusercontent.com/RaulhSanchez/RaulhSanchez/main/REDUX.png"></img>
                 </div>
-                <h2 className='h2'>Puedes encontrarme:</h2>
+                <h2 className='h2'>LINKEDIN:</h2>
                 <div className="lineBody"></div>
                 <h4 className='h3'>Este es mi perfil de Linkedin</h4>
-                <img className='linkedinImage' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIHLSAbqKFkpdC-7Ag_dLgMfg8JMGs7TkU7Q&usqp=CAU"></img>
+                <a target="_blank" href='https://www.linkedin.com/in/ra%C3%BAl-huete-s%C3%A1nchez/'>
+                    <img className='linkedinImage' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIHLSAbqKFkpdC-7Ag_dLgMfg8JMGs7TkU7Q&usqp=CAU"></img>
+                </a>
            </div>
         </div>
     )

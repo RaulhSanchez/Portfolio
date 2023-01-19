@@ -4,13 +4,17 @@ import './style.css'
 
 const Header = () => {
 
+    const navigate = useNavigate();
+    const homeButton = () => {navigate('/')}
+    
+
     return(        
         <div id="headerMain">
             <div id="header">
                 <img className="ImageGithubHeader"src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img>
                 <input className="searchHeader" type="search" placeholder='Search or jum to..'/>
                 <input className="headerText" type="submit" value="Contact"/>
-                <input className="headerText" type="submit" value="Home"/>
+                <input className="headerText" onClick={homeButton} type="submit" value="Home"/>
                 <input className="headerText" type="submit" value="Projects"/>
                 <input className="headerText" type="submit" value="Experience"/>
             </div>     
