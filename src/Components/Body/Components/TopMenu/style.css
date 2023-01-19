@@ -1,0 +1,136 @@
+
+/* Contenedor Superior */
+
+#containerMain{
+    position: sticky;
+    top:0;
+    background-color: rgb(13, 17, 24);
+}
+
+.containerTop{
+    padding-top: 2em;
+    background-color: rgb(13, 17, 24);
+    padding-bottom: 1.4em;
+    border-bottom: .1em solid rgba(212, 212, 212, 0.415);
+}
+
+.containerTop2{
+    position: sticky;
+    top:0;
+    background-color: rgba(13, 17, 24, 1);
+}
+
+.top{
+    padding-left: 23em;    
+    background-color: rgba(13, 17, 24, 1);
+}
+
+.textBodyMenu{
+    border: none;
+    margin-right: 1em;
+    cursor: pointer;
+    font-size:.9em;
+    font-weight: bold;
+    background: none;
+    color: rgba(212, 212, 212, 0.889);
+}
+.textBodyMenuSelected{
+    border: none;
+    margin-right: 1em;
+    cursor: pointer;
+    font-size:.9em;
+    font-weight: bold;
+    background: none;
+    color: rgba(212, 212, 212, 0.889);
+}
+
+
+.textBodyMenuSelected::before {
+        content: '';
+        border-bottom: .2em solid rgb(255, 140, 0);
+        border-radius: .2em;
+        padding: 0 3em;
+        position: absolute;
+        bottom: -1.7em;
+        margin: 0 auto;
+        width: 0;
+        transition: 0.3s;
+    
+}
+
+
+.ImageDescription{
+    width: 1em;
+    height: 1em;
+    margin-right: 0.3em;
+    border: none;
+    background: none;
+    background-color: aliceblue;
+}
+
+.line{
+    margin-top: 1em;
+    border-bottom: 0.1em solid;
+    color: rgba(212, 212, 212, 0.415);
+}
+
+
+
+/* Contenedor Izquierda */
+
+.containerLeft{
+    display: grid;
+    margin-left: 2em;
+    position: absolute;
+    max-width: 15em;
+}
+
+.ImagenPerfil{
+    border-radius: 15em;
+    border: .1em solid  rgba(212, 212, 212, 0.415);
+    width: 18em;
+    margin-bottom: 1em;
+}
+
+.spanName{
+    border: none;
+    margin-bottom: .1em;
+    font-size:1.2em;
+    font-weight: bold;
+    background: none;
+    color: rgba(212, 212, 212, 0.889);
+}
+
+.spanUserName{
+    border: none;
+    margin-bottom: 1em;
+    font-size:1em;
+    font-weight: bold;
+    background: none;
+    color: rgba(212, 212, 212, 0.665);
+}
+
+.buttonProfile{
+    cursor: pointer;
+    border-radius: .5em;
+    border: .1em solid rgba(212, 212, 212, 0.415);
+    padding-bottom: .4em;
+    padding-top: .4em;
+    margin-bottom: 1em;
+    background-color: rgba(212, 212, 212, 0.1);
+    color: white;
+    font-size:1em;
+    font-weight: bold;
+    color: rgba(212, 212, 212, 0.861);
+}
+
+.textBodyMenuLeft{
+    border: none;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    cursor: pointer;
+    font-size:.9em;
+    font-weight: bold;
+    background: none;
+    color: rgba(212, 212, 212, 0.889);
+}

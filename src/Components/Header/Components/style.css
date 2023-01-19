@@ -1,0 +1,87 @@
+/* Para pantalla grande  */
+
+#headerMain{
+    top: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(22, 28, 34, 1);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+#header{
+    top: 0;
+    display: inline-flex;
+}
+
+.div2{
+    margin-right: 3em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.headerText{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size:.9em;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+.ImageGithubHeader{
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+}
+.ImageDeployHeader{
+    width: 1em;
+    height: 1em;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+
+.searchHeader{
+    width: 20em;
+    height: 2em;
+    border-radius:0.5em;
+    margin-right: 1em;
+    background-color: rgba(13, 17, 24, 1);
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, sans-serif;
+    font-weight: bolder;
+}
+
+.ImageAlertHeader{
+    width: 2em;
+    height: 2em;
+    background-color: aliceblue;
+    border-radius: 1em;
+}
+
+.selectHeader{
+    background: none;
+    color: aliceblue;
+    width: 3em;
+    height: 2em;
+    margin-left: 1em;
+    border: none;
+}
+
+.ProfileDetails{
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+    border-radius: 1em;
+}
+
+.SelecProfileHeader{
+    display: inline-flex;
+}
+
