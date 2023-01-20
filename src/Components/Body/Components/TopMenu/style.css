@@ -46,18 +46,16 @@
     color: rgba(212, 212, 212, 0.889);
 }
 
-
-.textBodyMenuSelected::before {
-        content: '';
-        border-bottom: .2em solid rgb(255, 140, 0);
-        border-radius: .2em;
-        padding: 0 3em;
-        position: absolute;
-        bottom: -1.7em;
-        margin: 0 auto;
-        width: 0;
-        transition: 0.3s;
-    
+.textBodyMenu::before{
+    content: '';
+    border-bottom: .2em solid rgb(255, 140, 0);
+    border-radius: .2em;
+    padding: 0 3em;
+    position: absolute;
+    bottom: -1.7em;
+    margin: 0 auto;
+    width: 0;
+    transition: 0.3s;
 }
 
 
