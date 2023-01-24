@@ -12,6 +12,14 @@ const  Elementos = {
                 
                 'textBodyMenu',
                 'textBodyMenuSelected'
+        ],
+        RepositorioJson: [
+                {
+                        title:'Portfolio',
+                        state:'Public',
+                        languaje:'JavaScript',
+                        update:'update 1 day ago'
+                }
         ]
         
 }

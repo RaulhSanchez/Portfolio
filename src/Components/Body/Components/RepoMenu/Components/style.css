@@ -1,0 +1,28 @@
+
+
+.bodyContainer{
+   
+}
+
+
+.containerAll{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    margin-top: 2em;
+    margin-left: 23em;
+    border: .1em solid;
+    border-color: rgba(253, 253, 253, 0.415);
+    margin-right: 2em;
+}
+.containerAllSon{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    margin-left: 23em;
+    border: .1em solid;
+    border-color: rgba(253, 253, 253, 0.415);
+    margin-right: 2em;
+}
+
+.controlContainer{
+    text-align: end;
+}

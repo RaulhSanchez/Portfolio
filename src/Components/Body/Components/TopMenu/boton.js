@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {useNavigate} from 'react-router-dom'
-import Elementos from './complements'
+import Elementos from '../complements/complements'
 import './style.css'
 
 const DinamicButton = () => {
@@ -30,14 +30,13 @@ const DinamicButton = () => {
     
 
     const activateButton = (x) => {
-        console.log(x)
+        
 
     }
     useEffect(()=>{
         const i = {x:true}
         activateButton(i)
     },[])
-    console.log(x)
     return Elementos.titulos.map((titulo)=>{
         if(x.active !== false ){
             return React.createElement('button',{
