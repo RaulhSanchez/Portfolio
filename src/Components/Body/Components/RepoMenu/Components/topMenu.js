@@ -7,10 +7,10 @@ const TopMenuRepo = () => {
 
     return(
         <div className="main">
-                <input className='inputtopMenuRepo' placeholder='Find a repository...'></input>
-                <button className='buttontopMenuRepo'>sdfssfsdfdsfd</button>
-                <button className='buttontopMenuRepo'>sdffsfsdfvdvs</button>
-                <button className='buttontopMenuRepo'>vfdfdbdf</button>
+                <input className='inputtopMenuRepo' placeholder='Find a repository...' disabled></input>
+                <button className='buttontopMenuRepo' disabled>Type</button>
+                <button className='buttontopMenuRepo'disabled>Langauje</button>
+                <button className='buttontopMenuRepo'disabled>Sort</button>
         </div>
     )
 }

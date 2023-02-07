@@ -21,12 +21,13 @@ const Boxes = () => {
 
 
     return data.map((datos)=>{
+        console.log(datos)
         return(
             <>
                 <div className="containerAll">
                     <div className="spanContainer">
                         <div className="titleContainer">
-                            <a target="_blank" href='https://github.com/RaulhSanchez/Front_Veterinary/blob/master/src/Services/apiConsumer.js'>
+                            <a target="_blank" href={`${datos.url}`}>
                                 <span href='' className='valuesTitle'>{datos.title}</span>
                             </a>
                             <div>

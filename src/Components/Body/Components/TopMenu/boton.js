@@ -34,7 +34,7 @@ const DinamicButton = () => {
          //   projectsButton();                
         }
         if(boton === 'Experience'){
-           // experienceoButton();                
+            experienceoButton();                
         }   
 
     };
