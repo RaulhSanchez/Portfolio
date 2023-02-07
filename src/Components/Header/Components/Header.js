@@ -6,6 +6,7 @@ const Header = () => {
 
     const navigate = useNavigate();
     const homeButton = () => {navigate('/')}
+    const expecienceButton = () => {navigate('/experience')}
     
 
     return(        
@@ -17,17 +18,13 @@ const Header = () => {
                     <input className="headerText" onClick={homeButton} type="submit" value="Home"/>
                 </a>
                 <a>
-                    <input className="headerText" type="submit" value="Experience"/>
+                    <input className="headerText" onClick={expecienceButton} type="submit" value="Experience"/>
                 </a>
                 <a target="_blank" href='https://github.com/RaulhSanchez?tab=repositories'>
                     <input className="headerText" type="button" value="Projects" />
                 </a>
-                <a>
-                    <input className="headerText" type="submit" value="Contact"/>
-                </a>
             </div>     
             <div className="div2">               
-                <img className="ImageAlertHeader"src="https://cdn-icons-png.flaticon.com/512/3602/3602145.png"></img>
                 <select className="selectHeader" >
                     <option selected>+</option>    
                 </select>

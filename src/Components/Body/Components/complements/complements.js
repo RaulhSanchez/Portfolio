@@ -3,7 +3,6 @@ export const titulos=[
 
                 'Description',
                 'Experience',
-                'Projects',
                 'Repositories',
         ]
 

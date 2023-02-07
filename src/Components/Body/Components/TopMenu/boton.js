@@ -11,7 +11,6 @@ const DinamicButton = () => {
     const change =  (e) => {
         const homeButton = () => {navigate('/')};
         const repoButton = () => {navigate('/repository')};
-        const projectsButton = () => {navigate('/projects')};
         const experienceoButton = () => {navigate('/experience')};
 
         const boton =  e.target.id
@@ -29,9 +28,6 @@ const DinamicButton = () => {
             console.log(active)
         
            
-        }
-        if(boton === 'Projects'){
-         //   projectsButton();                
         }
         if(boton === 'Experience'){
             experienceoButton();                

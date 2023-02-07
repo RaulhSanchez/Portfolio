@@ -10,6 +10,7 @@ const LeftMenu = () => {
                 <span className='spanName'> Raúl Huete sanchez</span>
                 <span className='spanUserName'> RaulhSanchez</span>
                 <button onClick={a} className='buttonProfile'> Perfil </button>
+                <span className="textBodyMenuLeft"> <img className="ImageDescription" src="https://cdn-icons-png.flaticon.com/512/80/80599.png"></img>  92sanchez.raul@gmail.com</span>
                 <span className="textBodyMenuLeft"> <img className="ImageDescription" src="https://cdn-icons-png.flaticon.com/128/3313/3313480.png"></img>  Academia GeeksHubs</span>
                 <span className="textBodyMenuLeft"> <img className="ImageDescription" src="https://cdn-icons-png.flaticon.com/128/3421/3421853.png"></img>  Madrid</span>
                 <a target="_blank" href='https://www.linkedin.com/in/ra%C3%BAl-huete-s%C3%A1nchez/'>

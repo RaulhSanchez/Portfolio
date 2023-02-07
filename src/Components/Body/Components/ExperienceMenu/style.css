@@ -4,15 +4,74 @@
     border: 0.1em solid;
     color: rgba(212, 212, 212, 0.415);
     margin-right: 2em;
+    padding: 1em;
+    border-radius: .4em;
 }
 
 
 
 /* TopMenu */
+.mainTopMenu{
+    margin-top: 2em;
+    margin-left: 23em;
+    border: 0.1em solid;
+    color: rgba(212, 212, 212, 0.415);
+    margin-right: 2em;
+    border-radius: .5em;
+}
+.divisonMain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    border-bottom: 0.1em solid;
+    background-color:#161b22 ;
+}
+.top-divison1{
+    display: inline-flex;
+    align-items: center;
+}
+
+.top-divison2{
+    margin-right: 3em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ImagenPerfilTopMenu{
+    width: 1.5em;
+    border-radius: 1em;
+    margin:1em;
+}
 
 
+.botton-division{
+    margin:1em
+}
 
 /* BodyMenu */
+
+
+.work{
+    color: #7ee787;
+    margin-top: 1em;
+}
+.names{
+    color: #ff7b72;
+    margin:1em
+    
+}
+.tarea{
+    color:#f1e05a;
+    margin-right: 1em;
+
+}
+.DescrptionContainer{
+    margin-left: 3em;
+}
+.description{
+    color: #a5d6ff;
+}
 
 
 
