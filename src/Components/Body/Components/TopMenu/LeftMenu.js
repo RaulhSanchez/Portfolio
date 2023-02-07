@@ -1,7 +1,7 @@
 import './style.css'
 
 const a = () => {
-    alert('a')
+    
 }
 const LeftMenu = () => {
     return(

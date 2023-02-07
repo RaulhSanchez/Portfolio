@@ -14,9 +14,9 @@ const Header = () => {
                 <img className="ImageGithubHeader"src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img>
                 <input className="searchHeader" type="search" placeholder='Search or jum to..'/>
                 <input className="headerText" type="submit" value="Contact"/>
-                <input className="headerText" onClick={homeButton} type="submit" value="Home"/>
                 <input className="headerText" type="submit" value="Projects"/>
                 <input className="headerText" type="submit" value="Experience"/>
+                <input className="headerText" onClick={homeButton} type="submit" value="Home"/>
             </div>     
             <div className="div2">               
                 <img className="ImageAlertHeader"src="https://cdn-icons-png.flaticon.com/512/3602/3602145.png"></img>

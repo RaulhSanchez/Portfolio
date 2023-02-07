@@ -10,8 +10,7 @@ const HomePage = () => {
 
     return(
        <div className="Prueba">
-            <HeaderContainer/>
-            <TopMenu />
+
             <LeftMenu />
             <BodyMenu />
         </div>

@@ -1,28 +1,26 @@
-const  Elementos = {
-        titulos:[
+
+export const titulos=[
 
                 'Description',
                  'Repositories',
                  'Projects',
                  'Experience',
-        ],
+        ]
 
         
-        clases:[
+export const  clases =[
                 
                 'textBodyMenu',
                 'textBodyMenuSelected'
-        ],
-        RepositorioJson: [
-                {
-                        title:'Portfolio',
-                        state:'Public',
-                        languaje:'JavaScript',
-                        update:'update 1 day ago'
-                }
         ]
         
-}
 
 
-export default Elementos
+
+
+export const APIURL ='http://localhost:27017/'
+
+export const LanguajeColor =[
+        'yellow',
+        'blue'
+]

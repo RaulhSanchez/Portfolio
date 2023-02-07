@@ -2,6 +2,7 @@
 
 import Boxes from './boxes'
 import './style.css'
+import TopMenuRepo from './topMenu'
 
 
 const RepoMenu = () =>{
@@ -9,7 +10,8 @@ const RepoMenu = () =>{
     
         return(
                 <div className="bodyContainer">
-                   <Boxes />
+                        <TopMenuRepo />
+                        <Boxes />
                 </div>
         )
     

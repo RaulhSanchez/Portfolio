@@ -1,63 +1,58 @@
 import React, { useEffect, useState } from 'react';
 import {useNavigate} from 'react-router-dom'
-import Elementos from '../complements/complements'
+import { titulos,clases } from '../complements/complements';
 import './style.css'
 
 const DinamicButton = () => {
 
     const navigate = useNavigate()
+    const [active, setActive] = useState(true);
     
-    const [active, setActive] = useState(false);
-    const x = {active:false}
-    
-    const change = async (e) => {
+    const change =  (e) => {
         const homeButton = () => {navigate('/')};
         const repoButton = () => {navigate('/repository')};
-        const boton = await e 
-        if(boton.target.id === 'Description'){
-            homeButton()
+        const projectsButton = () => {navigate('/projects')};
+        const experienceoButton = () => {navigate('/experience')};
+
+        const boton =  e.target.id
+        console.log(e.target)
+        if(boton === 'Description'){
+            setActive(!active)
+            homeButton()     
             
-            boton.target.classList.add(`${Elementos.clases[1]}`)
-            return i
-            // boton.target.classList.add(`${Elementos.clases[1]}`)            
+            
         }
-        if(boton.target.id === 'Repositories'){
-            repoButton();                
-            boton.target.classList.add(Elementos.clases[1])
+
+        if(boton === 'Repositories'){
+
+            repoButton();    
+            console.log(active)
+        
+           
         }
-       
+        if(boton === 'Projects'){
+         //   projectsButton();                
+        }
+        if(boton === 'Experience'){
+           // experienceoButton();                
+        }   
+
     };
-    
 
-    const activateButton = (x) => {
-        
 
-    }
-    useEffect(()=>{
-        const i = {x:true}
-        activateButton(i)
-    },[])
-    return Elementos.titulos.map((titulo)=>{
-        if(x.active !== false ){
-            return React.createElement('button',{
-                className:`${Elementos.clases[1]}`,
-                id:`${titulo}`,
-                type:'button',
-                onClick:(e)=>{activateButton(e),change(e)}
-            },`${titulo}`);
-        }else{
-            return React.createElement('button',{
-                className:`${Elementos.clases[0]}`,
-                id:`${titulo}`,
-                type:'button',
-                onClick:(e)=>{change(e)}
-            },`${titulo}`);
-
-        }
-            
-
-       
-        
-    })            
+    return titulos.map((titulo)=>{
+           return(
+           <button 
+                id={`${titulo}`} 
+                type='buton' 
+                className={ 'textBodyMenu'
+                    } 
+                onClick={(e)=>change(e)}
+            >
+                {titulo}
+            </button>
+           )
+        }        
+    )            
 };
 export default DinamicButton

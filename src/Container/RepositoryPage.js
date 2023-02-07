@@ -9,8 +9,6 @@ const RepositoryPage = () => {
             
     return(
         <div>
-            <HeaderContainer/>
-            <TopMenu />
             <LeftMenu />
             <RepoMenu />
         </div>
